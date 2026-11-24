@@ -18,7 +18,7 @@ uses leverage, and never touches real money.
   confirm buyers are actually stepping in. A coin whose first batches are
   dominated by the creator selling, or by one wallet loading up, is passed
   over entirely.
-- **Fixed size, capped exposure.** 1 SOL per entry, at most 5 open positions
+- **Fixed size, capped exposure.** 0.5 SOL per entry, at most 5 open positions
   at once, at most 16 orders per batch.
 - **Disciplined exits.** Take profit at +20%, stop loss at −10%, and a time
   exit that closes a flat position after its holding window ends, so dead
